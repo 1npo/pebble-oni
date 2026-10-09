@@ -1,0 +1,54 @@
+{
+    "name": "pebble-oni",
+    "author": "MakeAwesomeHappen",
+    "version": "1.0.0",
+    "keywords": [
+        "pebble-app"
+    ],
+    "private": true,
+    "dependencies": {
+        "@rebble/clay": "^1.1.0"
+    },
+    "pebble": {
+        "displayName": "pebble-oni",
+        "uuid": "bfb81ea0-2e2a-4321-a7e7-3b26eb990136",
+        "sdkVersion": "3",
+        "enableMultiJS": true,
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery",
+            "flint",
+            "gabbro"
+        ],
+        "watchapp": {
+            "watchface": false
+        },
+        "messageKeys": [
+            "RequestForecast",
+            "RequestWeather",
+            "WxStatus",
+            "HrStart",
+            "HrTemp",
+            "HrPrecip",
+            "ObsTime",
+            "CurTemp",
+            "CurHumidity",
+            "CurWindDir",
+            "CurWindSpeed",
+            "CurWindGust",
+            "City",
+            "State",
+            "Units",
+            "ForecastHours"
+        ],
+        "resources": {
+            "media": []
+        },
+        "capabilities": [
+            "configurable"
+        ]
+    }
+}
